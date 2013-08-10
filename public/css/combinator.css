@@ -1,0 +1,30 @@
+body {
+	background-color: white;
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+.header {
+	width: 600px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.header img {
+	width: 100%;
+}
+
+.content {
+	margin: 20px auto;
+	width: 600px;
+	text-align: center;
+}
+
+.footer {
+	margin: 40px auto;
+	width: 600px;
+	text-align: center;
+}
