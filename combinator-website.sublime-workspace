@@ -207,7 +207,7 @@
 			"file": "public/css/combinator.css",
 			"settings":
 			{
-				"buffer_size": 318,
+				"buffer_size": 321,
 				"line_ending": "Unix"
 			}
 		}
@@ -491,20 +491,21 @@
 					"file": "public/css/combinator.css",
 					"settings":
 					{
-						"buffer_size": 318,
+						"buffer_size": 321,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								271,
-								271
+								143,
+								143
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
