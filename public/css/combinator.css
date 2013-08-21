@@ -83,13 +83,11 @@ h1 {
 }
 
 .gridThumbnail {
-	margin:5px;
-	max-width: 160px;
-	max-height: 160px;
+	width: 140px;
 }
 
 .footer {
 	margin: 40px auto;
 	width: 1000px;
 	text-align: center;
-}ext-align: center;
+}
