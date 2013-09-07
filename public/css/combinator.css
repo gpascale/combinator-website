@@ -75,8 +75,8 @@ h1 {
 	color:#555555;
 }
 
-.contentSection.video iframe {
-	margin: 10px 0;
+.contentSection iframe {
+	margin: 20px 0;
 }
 
 .socialLinks {
