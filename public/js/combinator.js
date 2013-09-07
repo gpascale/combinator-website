@@ -7,24 +7,39 @@
 			underscore: '../ext/js/underscore-min-1.5.1',
 			bootstrap: '../ext/bootstrap/js/bootstrap.min',
 			fancybox: '../ext/fancybox/source/jquery.fancybox.pack.js?v=2.1.5',
-			text: '../ext/js/text'
+			text: '../ext/js/text',
+			domReady: '../ext/js/domReady'
 		}
 	});
 
-	require(['jquery', 'underscore', 'fancybox', 'text'], function() {
-		init();
+	var _dependenciesLoaded = false;
+	var _pageLoaded = false;
+
+	require(['domReady', 'jquery', 'underscore', 'fancybox', 'text'], function(domReady) {
+		domReady(go);
+		/*_dependenciesLoaded = true;
+		if (_pageLoaded)
+			go();*/
 	});
 
-	function init() {
+/*
+	$(document).ready(function() {
+		_pageLoaded = true;
+		if (_dependenciesLoaded)
+			go();
+	});
+*/
 
-		require(['text!../templates/home.tmpl', 'text!../templates/news.tmpl',
-			'text!../templates/music.tmpl', 'text!../templates/gallery.tmpl',
-			'text!../templates/bio.tmpl'], function(homeTmpl, newsTmpl, musicTmpl, galleryTmpl,
-				bioTmpl) {
-
-		});
+	function go() {
 
 		var _pushedAnything = false;
+		var _templates = { };
+
+		_templates['home'] = $('#homeTemplate').html();
+		_templates['music'] = $('#musicTemplate').html();
+		_templates['photos'] = $('#photosTemplate').html();
+		_templates['video'] = $('#videoTemplate').html();
+		_templates['bio'] = $('#bioTemplate').html();
 
 		// Inspect the path to see if we should open a different tab
 		var reMatch = /^\/(home|music|photos|video|bio)\/?$/.exec(window.location.pathname);
@@ -44,6 +59,12 @@
 			// bring the new div in and the old div out if there was one
 			var oldDiv = $('.contentSection.active');
 			var newDiv = $('.contentSection.' + tabName);
+			if (newDiv.length === 0) {
+				newDiv = $(_.template(_templates[tabName])());
+				newDiv.hide();
+				$('.leftContent').append(newDiv);
+
+			}
 			newDiv.addClass('active');
 			newDiv.hide();
 			if (oldDiv.length > 0 && !oldDiv.is(newDiv)) {
@@ -55,6 +76,7 @@
 					},
 					always: function() {
 						newDiv.fadeIn('300');
+						oldDiv.remove();
 					}
 				});
 			}
