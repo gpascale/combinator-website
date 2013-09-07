@@ -1,27 +1,43 @@
 (function() {
+
 	$(document).ready(function() {
+
+		var _pushedAnything = false;
 
 		// Inspect the path to see if we should open a different tab
 		var reMatch = /^\/(home|music|photos|video|bio)\/?$/.exec(window.location.pathname);
-		if (reMatch) {
-			openTab(reMatch[1]);
-		}
+		var tab = reMatch ? reMatch[1] : 'home';
+		openTab(tab, false);
 
-		function openTab(tabName) {
-			
+		window.onpopstate = function(event) {
+			// Fuck you, WebKit
+			if (event.state || _pushedAnything)
+				openTab(event.state, false);
+		};
+
+		function openTab(tabName, doPushState) {
+			if (!tabName)
+				tabName = 'home';
+
 			// bring the new div in and the old div out if there was one
 			var oldDiv = $('.contentSection.active');
 			var newDiv = $('.contentSection.' + tabName);
 			newDiv.addClass('active');
 			newDiv.hide();
-			if (oldDiv.length > 0) {
+			if (oldDiv.length > 0 && !oldDiv.is(newDiv)) {
 				oldDiv.removeClass('active');
-				oldDiv.fadeOut('300', function() {
-					newDiv.fadeIn('300');
+				oldDiv.fadeOut({
+					duration: '300', 
+					fail: function() { 
+						oldDiv.hide(); 
+					},
+					always: function() {
+						newDiv.fadeIn('300');
+					}
 				});
 			}
 			else {
-				newDiv.fadeIn('300');
+				newDiv.show();
 			}
 
 			// synchronize the tab selection
@@ -30,7 +46,10 @@
 			$pill.addClass('active');
 
 			// use push state to synchronize the URL
-			window.history.pushState(null, null, '/' + tabName);
+			if (doPushState) {
+				window.history.pushState(tabName, null, '/' + tabName);
+				_pushedAnything = true;
+			}
 		}
 
 		// Nav click handlers
@@ -44,7 +63,7 @@
 			];
 
 			var index = $(this).parent().index();
-			openTab(classNameByIndex[index]);
+			openTab(classNameByIndex[index], true);
 
 			return false;
 		});
