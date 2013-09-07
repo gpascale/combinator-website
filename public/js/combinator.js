@@ -8,6 +8,7 @@
 		var reMatch = /^\/(home|music|photos|video|bio)\/?$/.exec(window.location.pathname);
 		var tab = reMatch ? reMatch[1] : 'home';
 		openTab(tab, false);
+		_trackPageView('/' + tab);
 
 		window.onpopstate = function(event) {
 			// Fuck you, WebKit
