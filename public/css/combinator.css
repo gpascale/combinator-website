@@ -1,5 +1,5 @@
 body {
-	background-color: black;
+	background-color: #151515;
 	margin: 0 auto;
 }
 
@@ -73,6 +73,10 @@ h1 {
 .nav li.active a:focus {
 	background-color:white;
 	color:#555555;
+}
+
+.contentSection iframe {
+	margin: 20px 0;
 }
 
 .socialLinks {
