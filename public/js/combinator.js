@@ -6,9 +6,9 @@
 
 			var classNameByIndex = [
 				'home',
-				'news',
 				'music',
-				'gallery',
+				'photos',
+				'video',
 				'bio'
 			];
 
@@ -31,6 +31,6 @@
 		});
 
 		// fancybox
-		$(".fancybox").attr('rel', 'gallery').fancybox();
+		$(".fancybox").attr('rel', 'photos').fancybox();
 	});
 }());
