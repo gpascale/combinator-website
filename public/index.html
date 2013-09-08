@@ -2,18 +2,17 @@
 	<head>
     <link href="ext/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"></link>
     <link href="css/combinator.css" rel="stylesheet" type="text/css"></link>
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script data-main="js/combinator" src="ext/js/require-2.1.8.js"></script>
+    <!--
     <link rel="stylesheet" href="ext/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
     <script type="text/javascript" src="ext/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
     <link rel="stylesheet" href="ext/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
     <script type="text/javascript" src="ext/fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
     <script type="text/javascript" src="ext/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
-
     <link rel="stylesheet" href="ext/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
     <script type="text/javascript" src="ext/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
-		<script src="js/combinator.js"></script>
-
-    <!-- Google Analytics -->
+  -->
+<!-- Google Analytics -->
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -25,13 +24,24 @@
 
     </script>
     <!-- End Google Analytics -->
-
 	</head>
 	<body>
     <div class="header">
-      <!--<img src="img/header.jpg"></img>-->
       <h1>Combinator</h1>
-      <div class="navbar"></div>
+      <div class="socialLinks">
+        <a href="http://facebook.com/combinatorband">
+          <img src="img/icon_facebook.png"></img>
+        </a>
+        <a href="http://twitter.com/combinatorband">
+          <img src="img/icon_twitter.png"></img>
+        </a>
+        <a href="http://youtube.com/user/combinatorband">
+          <img src="img/icon_youtube.png"></img>
+        </a>
+        <a href="http://combinator.bandcamp.com">
+          <img src="img/icon_bandcamp.png"></img>
+        </a>
+      </div>
     </div>
     <div class="container">
       <div class="content row">
@@ -56,121 +66,66 @@
               <a href="bio">Bio</a>
             </li>
           </ul>
-          <div class="home contentSection" style="display:none;">
-            <p>
-              Combinator is a Seattle-based, soulful, funky rock band.
-            </p>
-            <p>
-              Combinator wants you, and takes what it wants. 
-
-              It will aurally seduce you with its sticky tendrils of funk and soul, pound your chest while spanking your butt with its punishing rock sensibility, and awaken your palette with its savory, worldly flavors. For out of the depths of the murky bog of stank which the forebearers did create many years ago, has crawled Combinator - the harbinger of vice and passion. 
-            </p>
-            <p>
-              Combinator is coming, and there will be no mind, body, or spirit left unmoved.
-            </p>
-            <iframe width="600" height="450" src="//www.youtube.com/embed/TTIjKjSsWFU" frameborder="0" allowfullscreen></iframe>
-          </div>
-          <div class="news contentSection" style="display:none;">
-            <p> Combinator has several upcoming shows. Check out our <a href="http://www.songkick.com/artists/6097809">Songkick</a> page for details.
-          </div>
-          <div class="music contentSection" style="display:none;">
-            We just finished recording our first EP, <strong>Vice and Passion</strong>. Listen below or head on over to our <a href="http://combinator.bandcamp.com">Bandcamp</a> page to download it for a nominal fee.
-            <iframe style="border: 0; width: 350px; height: 600px;" src="http://bandcamp.com/EmbeddedPlayer/album=336232476/size=large/bgcol=333333/linkcol=0f91ff/transparent=true/" seamless><a href="http://combinator.bandcamp.com/album/vice-passion">Vice &amp; Passion by Combinator</a></iframe>
-          </div>
-          <div class="bio contentSection" style="display:none;">
-            <p>
-              Combinator is...
-            </p>
-            <p>
-              Isaac Chirino - Drums, Vocals<br/>
-              Sean Fairchild - Bass, Lead Vocals<br/>
-              Greg Pascale - Guitar, Vocals, Website creation (Sean sucks!)
-            </p>
-          </div>
-          <div class="video contentSection" style="display:none;">
-            <iframe width="600" height="450" src="//www.youtube.com/embed/TTIjKjSsWFU" frameborder="0" allowfullscreen></iframe>
-            <iframe width="600" height="450" src="//www.youtube.com/embed/5_wqcNBCV5c" frameborder="0" allowfullscreen></iframe>
-          </div>
-          <div class="photos contentSection" style="display:none;">
-            <!-- Greg -->
-            <a class="fancybox" href="img/gallery/BlueMoon-Greg1.jpg" title="Greg 1">
-              <img src="img/gallery/BlueMoon-Greg1.jpg" alt="" class="img-polaroid gridThumbnail">
-            </a>
-            <a class="fancybox" href="img/gallery/BlueMoon-Greg2.jpg" title="Greg 2">
-              <img src="img/gallery/BlueMoon-Greg2.jpg" alt="" class="img-polaroid gridThumbnail">
-            </a>
-            <a class="fancybox" href="img/gallery/BlueMoon-Greg3.jpg" title="Greg 3">
-              <img src="img/gallery/BlueMoon-Greg3.jpg" alt="" class="img-polaroid gridThumbnail">
-            </a>
-            <a class="fancybox" href="img/gallery/BlueMoon-Greg4.jpg" title="Greg 4">
-              <img src="img/gallery/BlueMoon-Greg4.jpg" alt="" class="img-polaroid gridThumbnail">
-            </a>
-            <a class="fancybox" href="img/gallery/BlueMoon-Greg5.jpg" title="Greg 5">
-              <img src="img/gallery/BlueMoon-Greg5.jpg" alt="" class="img-polaroid gridThumbnail">
-            </a>
-            <a class="fancybox" href="img/gallery/BlueMoon-Greg6.jpg" title="Greg 6">
-              <img src="img/gallery/BlueMoon-Greg6.jpg" alt="" class="img-polaroid gridThumbnail">
-            </a>
-            <a class="fancybox" href="img/gallery/BlueMoon-Greg7.jpg" title="Greg 7">
-              <img src="img/gallery/BlueMoon-Greg7.jpg" alt="" class="img-polaroid gridThumbnail">
-            </a>
-            <a class="fancybox" href="img/gallery/BlueMoon-Greg8.jpg" title="Greg 8">
-              <img src="img/gallery/BlueMoon-Greg8.jpg" alt="" class="img-polaroid gridThumbnail">
-            </a>
-
-            <!-- Sean -->
-            <a class="fancybox" href="img/gallery/BlueMoon-Sean1.jpg" title="Sean 1">
-              <img src="img/gallery/BlueMoon-Sean1.jpg" alt="" class="img-polaroid gridThumbnail">
-            </a>
-            <a class="fancybox" href="img/gallery/BlueMoon-Sean2.jpg" title="Sean 2">
-              <img src="img/gallery/BlueMoon-Sean2.jpg" alt="" class="img-polaroid gridThumbnail">
-            </a>
-            <a class="fancybox" href="img/gallery/BlueMoon-Sean3.jpg" title="Sean 3">
-              <img src="img/gallery/BlueMoon-Sean3.jpg" alt="" class="img-polaroid gridThumbnail">
-            </a>
-            <a class="fancybox" href="img/gallery/BlueMoon-Sean4.jpg" title="Sean 4">
-              <img src="img/gallery/BlueMoon-Sean4.jpg" alt="" class="img-polaroid gridThumbnail">
-            </a>
-            <a class="fancybox" href="img/gallery/BlueMoon-Sean5.jpg" title="Sean 5">
-              <img src="img/gallery/BlueMoon-Sean5.jpg" alt="" class="img-polaroid gridThumbnail">
-            </a>
-
-            <!-- Isaac -->
-            <a class="fancybox" href="img/gallery/BlueMoon-Isaac1.jpg" title="Isaac 1">
-              <img src="img/gallery/BlueMoon-Isaac1.jpg" alt="" class="img-polaroid gridThumbnail">
-            </a>
-            <a class="fancybox" href="img/gallery/BlueMoon-Isaac2.jpg" title="Isaac 2">
-              <img src="img/gallery/BlueMoon-Isaac2.jpg" alt="" class="img-polaroid gridThumbnail">
-            </a>
-            <a class="fancybox" href="img/gallery/BlueMoon-Isaac3.jpg" title="Isaac 3">
-              <img src="img/gallery/BlueMoon-Isaac3.jpg" alt="" class="img-polaroid gridThumbnail">
-            </a>
-            <a class="fancybox" href="img/gallery/BlueMoon-Isaac4.jpg" title="Isaac 4">
-              <img src="img/gallery/BlueMoon-Isaac4.jpg" alt="" class="img-polaroid gridThumbnail">
-            </a>
-            <a class="fancybox" href="img/gallery/BlueMoon-Isaac5.jpg" title="Isaac 5">
-              <img src="img/gallery/BlueMoon-Isaac5.jpg" alt="" class="img-polaroid gridThumbnail">
-            </a>
-          </div>
         </div>
         <div class="rightContent span4">
-          <div class="socialLinks">
-            <a href="http://facebook.com/combinatorband">
-              <img src="img/icon_facebook.png"></img>
-            </a>
-            <a href="http://twitter.com/combinatorband">
-              <img src="img/icon_twitter.png"></img>
-            </a>
-            <a href="http://youtube.com/user/combinatorband">
-              <img src="img/icon_youtube.png"></img>
-            </a>
-            <a href="http://combinator.bandcamp.com">
-              <img src="img/icon_bandcamp.png"></img>
-            </a>
-          </div>
+
           <div class="player">
             <iframe style="border: 0; width: 100%; height: 120px;" src="http://bandcamp.com/EmbeddedPlayer/album=336232476/size=medium/bgcol=333333/linkcol=0f91ff/artwork=false/t=2/transparent=true/" seamless><a href="http://combinator.bandcamp.com/album/vice-passion">Vice &amp; Passion by Combinator</a></iframe>
           </div>
+
+          <!-- Begin MailChimp Signup Form -->
+          <div id="mc_embed_signup">
+            <form class="form-vertical" action="http://combinatorband.us7.list-manage.com/subscribe/post?u=fca11b6c0c06eb680ad0f9b52&amp;id=cdf01ff4f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+              <fieldset>
+                <p>Sign up for our mailing list to be notified about upcoming shows, albums and other events</p>
+                <div class="mc-field-group control-group">
+                  <label for="mce-EMAIL" class="control-label">Email Address</label>
+                  <div class="controls">
+                    <input id="mce-EMAIL" name="EMAIL" type="text" placeholder="" class="input-xlarge required email">
+                  </div>
+                </div>
+                <div class="mc-field-group control-group">
+                  <label for="mce-FULLNAME" class="control-label">Name</label>
+                  <div class="controls">
+                    <input id="mce-FULLNAME" name="FULLNAME" type="text" placeholder="" class="input-xlarge">
+                  </div>
+                </div>
+                <!-- Hidden fields for first and last name. We populate these with JS before
+                     submitting the form -->
+                <div class="mc-field-group control-group" style="display:none;">
+                    <input id="mce-FIRSTNAME" name="FIRSTNAME" type="text" placeholder="" class="input-xlarge">
+                </div>
+                <div class="mc-field-group control-group" style="display:none;">
+                    <input id="mce-LASTNAME" name="LASTNAME" type="text" placeholder="" class="input-xlarge">
+                </div>
+
+                <div class="mc-field-group control-group">
+                  <label class="control-label">Email Format</label>
+                  <div class="controls">
+                    <select id="mce-EMAILTYPE-0" name="EMAILTYPE" class="input-xlarge">
+                      <option value="html">HTML</option>
+                      <option value="text">Plain Text</option>
+                      <option value="mobile">Mobile</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="control-group">
+                  <div class="controls">
+                    <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary">Subscribe</button>
+                  </div>
+                </div>
+
+                <div id="mce-responses" class="clear">
+                  <div class="response" id="mce-error-response" style="display:none"></div>
+                  <div class="response" id="mce-success-response" style="display:none"></div>
+                </div>  
+              </fieldset>
+            </form>
+          </div>
+
+          <!--End mc_embed_signup-->
+          
           <div class="tourDates">
             <a href="http://www.songkick.com/artists/6097809" class="songkick-widget" data-theme="dark" data-font-color="#ffffff" data-background-color="#333333">Tour dates</a>
             <script src="//widget.songkick.com/widget.js"></script>
@@ -183,6 +138,113 @@
       <iframe style="border: 0; width:600px; height: 120px;" src="http://bandcamp.com/EmbeddedPlayer/album=336232476/size=medium/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless><a href="http://combinator.bandcamp.com/album/vice-passion">Vice &amp; Passion by Combinator</a></iframe>
     </div>
   -->
+
+
+    <!-- Templates -->
+
+    <script type="text/template" id="homeTemplate">
+      <div class="home contentSection">
+      <p>
+      Combinator is a Seattle-based, soulful, funky rock band.
+      </p>
+      <p>
+      Combinator wants you, and takes what it wants. 
+
+      It will aurally seduce you with its sticky tendrils of funk and soul, pound your chest while spanking your butt with its punishing rock sensibility, and awaken your palette with its savory, worldly flavors. For out of the depths of the murky bog of stank which the forebearers did create many years ago, has crawled Combinator - the harbinger of vice and passion. 
+      </p>
+      <p>
+      Combinator is coming, and there will be no mind, body, or spirit left unmoved.
+      </p>
+      <iframe width="600" height="450" src="//www.youtube.com/embed/TTIjKjSsWFU" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </script>
+
+    <script type="text/template" id="musicTemplate">
+      <div class="music contentSection" style="display:none;">
+      We just finished recording our first EP, <strong>Vice and Passion</strong>. Listen below or head on over to our <a href="http://combinator.bandcamp.com">Bandcamp</a> page to download it for a nominal fee.
+      <iframe style="border: 0; width: 350px; height: 593px;" src="http://bandcamp.com/EmbeddedPlayer/album=336232476/size=large/bgcol=333333/linkcol=0f91ff/transparent=true/" seamless><a href="http://combinator.bandcamp.com/album/vice-passion">Vice &amp; Passion by Combinator</a></iframe>
+      </div>
+    </script>
+
+    <script type="text/template" id="photosTemplate">
+      <div class="photos contentSection" style="display:none;">
+      <!-- Greg -->
+      <a class="fancybox" href="img/gallery/BlueMoon-Greg1.jpg" title="Greg 1">
+      <img src="img/gallery/BlueMoon-Greg1.jpg" alt="" class="img-polaroid gridThumbnail">
+      </a>
+      <a class="fancybox" href="img/gallery/BlueMoon-Sean5.jpg" title="Sean 5">
+      <img src="img/gallery/BlueMoon-Sean5.jpg" alt="" class="img-polaroid gridThumbnail">
+      </a>
+      <a class="fancybox" href="img/gallery/BlueMoon-Isaac1.jpg" title="Isaac 1">
+      <img src="img/gallery/BlueMoon-Isaac1.jpg" alt="" class="img-polaroid gridThumbnail">
+      </a>
+      <a class="fancybox" href="img/gallery/BlueMoon-Greg2.jpg" title="Greg 2">
+      <img src="img/gallery/BlueMoon-Greg2.jpg" alt="" class="img-polaroid gridThumbnail">
+      </a>
+      <a class="fancybox" href="img/gallery/BlueMoon-Sean2.jpg" title="Sean 2">
+      <img src="img/gallery/BlueMoon-Sean2.jpg" alt="" class="img-polaroid gridThumbnail">
+      </a>
+      <a class="fancybox" href="img/gallery/BlueMoon-Isaac2.jpg" title="Isaac 2">
+      <img src="img/gallery/BlueMoon-Isaac2.jpg" alt="" class="img-polaroid gridThumbnail">
+      </a>
+      <a class="fancybox" href="img/gallery/BlueMoon-Greg3.jpg" title="Greg 3">
+      <img src="img/gallery/BlueMoon-Greg3.jpg" alt="" class="img-polaroid gridThumbnail">
+      </a>
+      <a class="fancybox" href="img/gallery/BlueMoon-Greg4.jpg" title="Greg 4">
+      <img src="img/gallery/BlueMoon-Greg4.jpg" alt="" class="img-polaroid gridThumbnail">
+      </a>
+      <a class="fancybox" href="img/gallery/BlueMoon-Sean3.jpg" title="Sean 3">
+      <img src="img/gallery/BlueMoon-Sean3.jpg" alt="" class="img-polaroid gridThumbnail">
+      </a>
+      <a class="fancybox" href="img/gallery/BlueMoon-Sean4.jpg" title="Sean 4">
+      <img src="img/gallery/BlueMoon-Sean4.jpg" alt="" class="img-polaroid gridThumbnail">
+      </a>
+      <a class="fancybox" href="img/gallery/BlueMoon-Greg5.jpg" title="Greg 5">
+      <img src="img/gallery/BlueMoon-Greg5.jpg" alt="" class="img-polaroid gridThumbnail">
+      </a>
+      <a class="fancybox" href="img/gallery/BlueMoon-Isaac4.jpg" title="Isaac 4">
+      <img src="img/gallery/BlueMoon-Isaac4.jpg" alt="" class="img-polaroid gridThumbnail">
+      </a>
+      <a class="fancybox" href="img/gallery/BlueMoon-Greg6.jpg" title="Greg 6">
+      <img src="img/gallery/BlueMoon-Greg6.jpg" alt="" class="img-polaroid gridThumbnail">
+      </a>
+      <a class="fancybox" href="img/gallery/BlueMoon-Isaac3.jpg" title="Isaac 3">
+      <img src="img/gallery/BlueMoon-Isaac3.jpg" alt="" class="img-polaroid gridThumbnail">
+      </a>
+      <a class="fancybox" href="img/gallery/BlueMoon-Sean1.jpg" title="Sean 1">
+      <img src="img/gallery/BlueMoon-Sean1.jpg" alt="" class="img-polaroid gridThumbnail">
+      </a>
+      <a class="fancybox" href="img/gallery/BlueMoon-Greg8.jpg" title="Greg 8">
+      <img src="img/gallery/BlueMoon-Greg8.jpg" alt="" class="img-polaroid gridThumbnail">
+      </a>
+      <a class="fancybox" href="img/gallery/BlueMoon-Greg7.jpg" title="Greg 7">
+      <img src="img/gallery/BlueMoon-Greg7.jpg" alt="" class="img-polaroid gridThumbnail">
+      </a>
+      <a class="fancybox" href="img/gallery/BlueMoon-Isaac5.jpg" title="Isaac 5">
+      <img src="img/gallery/BlueMoon-Isaac5.jpg" alt="" class="img-polaroid gridThumbnail">
+      </a>
+      </div>
+    </script>
+
+    <script type="text/template" id="videoTemplate">
+      <div class="video contentSection" style="display:none;">
+      <iframe width="600" height="450" src="//www.youtube.com/embed/TTIjKjSsWFU" frameborder="0" allowfullscreen></iframe>
+      <iframe width="600" height="450" src="//www.youtube.com/embed/5_wqcNBCV5c" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </script>
+
+    <script type="text/template" id="bioTemplate">
+      <div class="bio contentSection" style="display:none;">
+      <p>
+      Combinator is...
+      </p>
+      <p>
+      Isaac Chirino - Drums, Vocals<br/>
+      Sean Fairchild - Bass, Lead Vocals<br/>
+      Greg Pascale - Guitar, Vocals, Website creation (Sean sucks!)
+      </p>
+      </div>
+    </script>
 
 	</body>
 </html>
