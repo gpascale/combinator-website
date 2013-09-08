@@ -17,18 +17,7 @@
 
 	require(['domReady', 'jquery', 'underscore', 'fancybox', 'text'], function(domReady) {
 		domReady(go);
-		/*_dependenciesLoaded = true;
-		if (_pageLoaded)
-			go();*/
 	});
-
-/*
-	$(document).ready(function() {
-		_pageLoaded = true;
-		if (_dependenciesLoaded)
-			go();
-	});
-*/
 
 	function go() {
 
@@ -45,7 +34,7 @@
 		var reMatch = /^\/(home|music|photos|video|bio)\/?$/.exec(window.location.pathname);
 		var tab = reMatch ? reMatch[1] : 'home';
 		openTab(tab, false);
-		_trackPageView('/' + tab);
+		_gaq.push(['_trackPageview', '/' + tab]);
 
 		window.onpopstate = function(event) {
 			// Fuck you, WebKit
@@ -56,6 +45,9 @@
 		function openTab(tabName, doPushState) {
 			if (!tabName)
 				tabName = 'home';
+
+			if (doPushState)
+				_gaq.push(['_trackPageview', '/' + tabName]);
 
 			// bring the new div in and the old div out if there was one
 			var oldDiv = $('.contentSection.active');
