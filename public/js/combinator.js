@@ -15,8 +15,10 @@
 	var _dependenciesLoaded = false;
 	var _pageLoaded = false;
 
-	require(['domReady', 'jquery', 'underscore', 'fancybox', 'text'], function(domReady) {
-		domReady(go);
+	require(['domReady', 'jquery', 'underscore', 'text'], function(domReady) {
+		require(['fancybox'], function() {
+			domReady(go);
+		});
 	});
 
 	function go() {
@@ -106,6 +108,7 @@
 
 
 		// fancybox
+		debugger;
 		$(".fancybox").attr('rel', 'photos').fancybox();
 
 		$('#mc_embed_signup').on('click', '.btn', function() {
