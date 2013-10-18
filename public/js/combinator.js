@@ -57,7 +57,7 @@
 			if (newDiv.length === 0) {
 				newDiv = $(_.template(_templates[tabName])());
 				newDiv.hide();
-				$('.leftContent').append(newDiv);
+				$('.content').append(newDiv);
 
 			}
 			newDiv.addClass('active');
@@ -108,7 +108,6 @@
 
 
 		// fancybox
-		debugger;
 		$(".fancybox").attr('rel', 'photos').fancybox();
 
 		$('#mc_embed_signup').on('click', '.btn', function() {

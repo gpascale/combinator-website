@@ -54,12 +54,21 @@ h1 {
 	text-align: left;
 }
 
-.nav {
+.navRegion {
+	margin-top: 10px;
 	margin-bottom: 35px;
 }
+
+.nav {
+	text-align: center;
+}
+
 .nav li {
 	margin-right: 15px;
+	display: inline-block;
+	float: none;
 }
+
 .nav li a {
 	font-size: 24px;
 	color: white;
