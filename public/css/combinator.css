@@ -154,3 +154,8 @@ h1 {
 .playSamplerLink:hover .playSampler {
 	background-image: url(../img/play-hover.jpg);
 }
+
+.video p {
+	margin-bottom: 20px;
+	text-align: center;
+}
