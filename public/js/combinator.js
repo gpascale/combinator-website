@@ -21,16 +21,37 @@
 		});
 	});
 
+	function buildTemplate(tab)
+	{
+		switch(tab) {
+			case 'home':
+				return _.template($('#homeTemplate').html())();
+			case 'music':
+				return _.template($('#musicTemplate').html())();
+			case 'video':
+				return _.template($('#videoTemplate').html())();
+			case 'bio':
+				return _.template($('#bioTemplate').html())();
+			case 'photos': {
+				var data = {
+					path: 'img/gallery/',
+					thumbPath: '/img/gallery/thumbs/',
+					photos: [
+						'Nectar-All1', 'HighDive-All3', 'Nectar-All2',
+						'HighDive-Isaac', 'HighDive-Sean1', 'HighDive-Greg1',
+						'HighDive-All2', 'Nectar-All1', 'Nectar-All3', 'Nectar-Posing', 'Nectar-Goofy2',
+						'BlueMoon-Greg1', 'BlueMoon-Sean5', 'BlueMoon-Isaac1', 'BlueMoon-Greg2',
+						'BlueMoon-Sean2', 'BlueMoon-Isaac2', 'BlueMoon-Greg3', 'BlueMoon-Greg4',
+						'Recording-Isaac', 'Recording-Sean',
+					]
+				};
+				return _.template($('#photosTemplate').html())(data);
+			}
+		}
+	}
+
 	function go() {
-
 		var _pushedAnything = false;
-		var _templates = { };
-
-		_templates['home'] = $('#homeTemplate').html();
-		_templates['music'] = $('#musicTemplate').html();
-		_templates['photos'] = $('#photosTemplate').html();
-		_templates['video'] = $('#videoTemplate').html();
-		_templates['bio'] = $('#bioTemplate').html();
 
 		// Inspect the path to see if we should open a different tab
 		var reMatch = /^\/(home|music|photos|video|bio)\/?$/.exec(window.location.pathname);
@@ -55,7 +76,7 @@
 			var oldDiv = $('.contentSection.active');
 			var newDiv = $('.contentSection.' + tabName);
 			if (newDiv.length === 0) {
-				newDiv = $(_.template(_templates[tabName])());
+				newDiv = $(buildTemplate(tabName));
 				newDiv.hide();
 				$('.leftContent').append(newDiv);
 
@@ -108,7 +129,6 @@
 
 
 		// fancybox
-		debugger;
 		$(".fancybox").attr('rel', 'photos').fancybox();
 
 		$('#mc_embed_signup').on('click', '.btn', function() {
