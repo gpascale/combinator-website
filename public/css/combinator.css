@@ -170,3 +170,14 @@ h1 {
 	margin-bottom: 20px;
 	text-align: center;
 }
+
+.fb-like-box {
+	background-color: #333333;
+	margin-bottom: 20px;
+	min-height: 200px;
+}
+
+.player {
+	min-height: 120px;
+	background-color: #333333;	
+}
