@@ -8,7 +8,8 @@ app.get('/', function(req, res) {
 });
 
 app.get(/^\/((home|music|photos|video|bio)\/?)?$/, function(req, res) {
-	fs.readFile(__dirname + '/public/index.html', 'utf8', function(err, text){
+    console.log("get " + req.url);
+	fs.readFile(__dirname + '/public/html/index.html', 'utf8', function(err, text){
         res.send(text);
     });
 });

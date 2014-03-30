@@ -1,0 +1,183 @@
+body {
+	background-color: black;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	margin: 0 auto;
+	font
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+	color: #FFFFFF;
+	font-size: 100px;
+}
+
+.container {
+	width: 1000px;
+}
+
+.header {
+	padding: 0;
+	width: 1000px;
+	height: 236px;
+	text-align: left;
+	margin: 0 auto;
+	background: black;
+	background-image: url(../img/logo-small.jpeg);
+	background-repeat: no-repeat;
+	background-position: 50px 0;
+}
+.header h1 {
+	position: relative;
+	top: 90px;
+	left: 310px;
+	font-size: 120px;
+	font-weight: normal;
+}
+
+.header img {
+	width: 100%;
+}
+
+.content {
+	margin: 20px auto;
+	width: 1000px;
+	text-align: center;
+}
+
+.music iframe {
+	margin: 0 auto;
+}
+
+.row {
+	width: 1000px;
+}
+
+.leftContent {
+	color: white;
+	text-align: left;
+}
+
+.nav {
+	background-color: #151515;
+	margin-bottom: 35px;
+	text-align: center;
+	padding: 5px 0;
+}
+.nav li {
+	margin-right: 15px;
+	display: inline-block;
+	float: none;
+}
+.nav li a {
+	font-size: 24px;
+	color: white;
+}
+.nav li a:hover {
+	background-color:white;
+	color:#555555;
+}
+.nav li.active a,
+.nav li.active a:hover,
+.nav li.active a:focus {
+	background-color:white;
+	color:#555555;
+}
+
+.contentSection iframe {
+	margin: 20px auto;
+}
+
+.socialLinks {
+	position: relative;
+	left: 750px;
+	top: 140px;
+}
+.socialLinks img {
+	width: 50px;
+	height: 50px;
+}
+
+.player {
+	margin-bottom: 20px;
+}
+
+.gridThumbnail {
+	width: 180px;
+	height: 180px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	display: inline-block;
+	border: 4px solid white;
+	background-position: center center;
+}
+
+.footer {
+	margin: 40px auto;
+	width: 1000px;
+	text-align: center;
+}
+
+#mc_embed_signup {
+	color: white;
+	background-color: #333333;
+	padding-bottom:5px;
+	margin-bottom:20px;
+}
+#mc_embed_signup form {
+	margin-bottom:10px;
+}
+#mc_embed_signup p {
+	text-align: left;
+	padding: 10px;
+	margin: 0;
+}
+
+.mc-field-group {
+	margin-left: 10px;
+	text-align: left;
+	margin-bottom:0;
+}
+.mc-field-group input {
+	height: 30px;
+}
+
+.playSampler {
+	margin: 0 auto;
+	width: 256px;
+	height: 256px;
+	background-image: url(../img/play.jpg);
+	background-size: 256px 256px;
+}
+.playSampler p {
+	text-decoration: none;
+	text-align: center;
+	font-size: 36;
+	line-height: 1;
+}
+.playSamplerLink, .playSamplerLink:hover {
+	text-decoration: none;
+	color: white;
+}
+.playSamplerLink:hover .playSampler {
+	background-image: url(../img/play-hover.jpg);
+}
+
+.video p {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.fb-like-box {
+	background-color: #333333;
+	margin-bottom: 20px;
+	min-height: 200px;
+}
+
+.player {
+	min-height: 120px;
+	background-color: #333333;	
+}
