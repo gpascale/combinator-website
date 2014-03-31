@@ -1,3 +1,5 @@
 public/
 *.DS_Store*
 *.sublime*
+**/.DS_Store
+node_modules/
