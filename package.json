@@ -21,5 +21,8 @@
     "express": "~3.4.7",
     "grunt": "~0.4.2",
     "shelljs": "~0.2.6"
+  },
+  "scripts": {
+    "postinstall": "./node_modules/.bin/grunt"
   }
 }

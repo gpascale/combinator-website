@@ -199,6 +199,99 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "app.js",
+			"settings":
+			{
+				"buffer_size": 556,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 5928,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/html/index.html",
+			"settings":
+			{
+				"buffer_size": 45406,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 58,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 6603 files for \"img-wrapper\"\n\n/Users/gpascale/gitclients/combinator-website/ext/shapes/Documentation/index.html:\n  194  							<h3>Team members</h3>\n  195  							<p>Scroll to the <strong>ABOUT</strong> section and find the Markup for the single member.</p>\n  196: 							<div class=\"snippet-container\"><div class=\"sh_bright snippet-wrap\"><pre class=\"shi_pre sh_html snippet-formatted sh_sourceCode\"><ul class=\"snippet-no-num\"><li><span class=\"sh_comment\">&lt;!--Single Member--&gt;</span></li><li><span class=\"sh_keyword\">&lt;div</span> <span class=\"sh_type\">class</span><span class=\"sh_symbol\">=</span><span class=\"sh_string\">\"col-sm-4 member text-center scrollimation fade-right\"</span><span class=\"sh_keyword\">&gt;</span></li><li>&nbsp;&nbsp;&nbsp;&nbsp;</li><li>&nbsp;&nbsp;&nbsp;&nbsp;<span class=\"sh_keyword\">&lt;div</span> <span class=\"sh_type\">class</span><span class=\"sh_symbol\">=</span><span class=\"sh_string\">\"member-title\"</span><span class=\"sh_keyword\">&gt;</span></li><li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=\"sh_keyword\">&lt;h2&gt;</span>Richard Roe<span class=\"sh_keyword\">&lt;/h2&gt;</span></li><li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=\"sh_keyword\">&lt;p&gt;</span>Lead Developer<span class=\"sh_keyword\">&lt;/p&gt;</span></li><li>&nbsp;&nbsp;&nbsp;&nbsp;<span class=\"sh_keyword\">&lt;/div&gt;</span></li><li>&nbsp;&nbsp;&nbsp;&nbsp;</li><li>&nbsp;&nbsp;&nbsp;&nbsp;<span class=\"sh_keyword\">&lt;div</span> <span class=\"sh_type\">class</span><span class=\"sh_symbol\">=</span><span class=\"sh_string\">\"img-wrapper\"</span><span class=\"sh_keyword\">&gt;</span></li><li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=\"sh_keyword\">&lt;img</span> <span class=\"sh_type\">class</span><span class=\"sh_symbol\">=</span><span class=\"sh_string\">\"img-responsive shadow\"</span> <span class=\"sh_type\">src</span><span class=\"sh_symbol\">=</span><span class=\"sh_string\">\"assets/member1_shadow.png\"</span> <span class=\"sh_type\">alt</span><span class=\"sh_symbol\">=</span><span class=\"sh_string\">\"\"</span><span class=\"sh_keyword\">&gt;</span></li><li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=\"sh_keyword\">&lt;img</span> <span class=\"sh_type\">class</span><span class=\"sh_symbol\">=</span><span class=\"sh_string\">\"img-responsive main-img\"</span> <span class=\"sh_type\">src</span><span class=\"sh_symbol\">=</span><span class=\"sh_string\">\"assets/member1.png\"</span> <span class=\"sh_type\">alt</span><span class=\"sh_symbol\">=</span><span class=\"sh_string\">\"\"</span><span class=\"sh_keyword\">&gt;</span></li><li>&nbsp;&nbsp;&nbsp;&nbsp;<span class=\"sh_keyword\">&lt;/div&gt;</span></li><li>&nbsp;&nbsp;&nbsp;&nbsp;</li><li>&nbsp;&nbsp;&nbsp;&nbsp;<span class=\"sh_keyword\">&lt;a</span> <span class=\"sh_type\">class</span><span class=\"sh_symbol\">=</span><span class=\"sh_string\">\"details-btn\"</span> <span class=\"sh_type\">href</span><span class=\"sh_symbol\">=</span><span class=\"sh_string\">\"#link\"</span> <span class=\"sh_type\">data-toggle</span><span class=\"sh_symbol\">=</span><span class=\"sh_string\">\"collapse\"</span> <span class=\"sh_type\">data-target</span><span class=\"sh_symbol\">=</span><span class=\"sh_string\">\"#member1-details\"</span><span class=\"sh_keyword\">&gt;&lt;i</span> <span class=\"sh_type\">class</span><span class=\"sh_symbol\">=</span><span class=\"sh_string\">\"fa fa-plus\"</span><span class=\"sh_keyword\">&gt;&lt;/i&gt;&lt;span&gt;</span>Info<span class=\"sh_keyword\">&lt;/span&gt;&lt;/a&gt;</span></li><li>&nbsp;&nbsp;&nbsp;&nbsp;</li><li>&nbsp;&nbsp;&nbsp;&nbsp;<span class=\"sh_keyword\">&lt;div</span> <span class=\"sh_type\">id</span><span class=\"sh_symbol\">=</span><span class=\"sh_string\">\"member1-details\"</span> <span class=\"sh_type\">class</span><span class=\"sh_symbol\">=</span><span class=\"sh_string\">\"collapse\"</span><span class=\"sh_keyword\">&gt;</span></li><li>&nbsp;&nbsp;&nbsp;&nbsp;</li><li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=\"sh_keyword\">&lt;div</span> <span class=\"sh_type\">class</span><span class=\"sh_symbol\">=</span><span class=\"sh_string\">\"member-details\"</span><span class=\"sh_keyword\">&gt;</span></li><li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li><li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=\"sh_keyword\">&lt;p&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque imperdiet nibh nec adipiscing accumsan. Phasellus eu dapibus magna. Sed rutrum est dapibus ipsum ultricies, et tempus nisl commodo. Ut massa nibh, tempor et vehicula id, adipiscing id augue. Nam lobortis nunc et sapien dictum bibendum. Proin sit amet mauris aliquet, lobortis turpis eu, tincidunt felis. Integer semper mauris nec tellus mollis, at bibendum nunc euismod.<span class=\"sh_keyword\">&lt;/p&gt;</span> </li><li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=\"sh_keyword\">&lt;ul</span> <span class=\"sh_type\">class</span><span class=\"sh_symbol\">=</span><span class=\"sh_string\">\"member-socials\"</span><span class=\"sh_keyword\">&gt;</span></li><li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=\"sh_keyword\">&lt;li&gt;&lt;a</span> <span class=\"sh_type\">href</span><span class=\"sh_symbol\">=</span><span class=\"sh_string\">\"#link\"</span><span class=\"sh_keyword\">&gt;&lt;i</span> <span class=\"sh_type\">class</span><span class=\"sh_symbol\">=</span><span class=\"sh_string\">\"fa fa-twitter\"</span><span class=\"sh_keyword\">&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;</span></li><li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=\"sh_keyword\">&lt;li&gt;&lt;a</span> <span class=\"sh_type\">href</span><span class=\"sh_symbol\">=</span><span class=\"sh_string\">\"#link\"</span><span class=\"sh_keyword\">&gt;&lt;i</span> <span class=\"sh_type\">class</span><span class=\"sh_symbol\">=</span><span class=\"sh_string\">\"fa fa-facebook\"</span><span class=\"sh_keyword\">&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;</span></li><li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=\"sh_keyword\">&lt;li&gt;&lt;a</span> <span class=\"sh_type\">href</span><span class=\"sh_symbol\">=</span><span class=\"sh_string\">\"#link\"</span><span class=\"sh_keyword\">&gt;&lt;i</span> <span class=\"sh_type\">class</span><span class=\"sh_symbol\">=</span><span class=\"sh_string\">\"fa fa-google-plus\"</span><span class=\"sh_keyword\">&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;</span></li><li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=\"sh_keyword\">&lt;/ul&gt;</span></li><li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=\"sh_keyword\">&lt;/div&gt;</span></li><li>&nbsp;&nbsp;&nbsp;&nbsp;<span class=\"sh_keyword\">&lt;/div&gt;</span></li><li><span class=\"sh_keyword\">&lt;/div&gt;</span><span class=\"sh_comment\">&lt;!--End Single Member--&gt;</span></li></ul></pre></div></div>\n  197  							<br/>\n  198  							<h4>Member Title</h4>\n\n/Users/gpascale/gitclients/combinator-website/ext/shapes/HTML/index.html:\n  727  						</div>\n  728  						\n  729: 						<div class=\"img-wrapper\">\n  730  							<img class=\"img-responsive shadow\" src=\"assets/member1_shadow.png\" alt=\"\">\n  731  							<img class=\"img-responsive main-img\" src=\"assets/member1-placeholder.png\" alt=\"\">\n  ...\n  755  						</div>\n  756  						\n  757: 						<div class=\"img-wrapper\">\n  758  							<img class=\"img-responsive shadow\" src=\"assets/member2_shadow.png\" alt=\"\">\n  759  							<img class=\"img-responsive main-img\" src=\"assets/member2-placeholder.png\" alt=\"\">\n  ...\n  783  						</div>\n  784  						\n  785: 						<div class=\"img-wrapper\">\n  786  							<img class=\"img-responsive shadow\" src=\"assets/member3_shadow.png\" alt=\"\">\n  787  							<img class=\"img-responsive main-img\" src=\"assets/member3-placeholder.png\" alt=\"\">\n\n/Users/gpascale/gitclients/combinator-website/ext/shapes/HTML/css/shapes-blue.css:\n  578  }\n  579  \n  580: #about .member .img-wrapper{\n  581      position:relative;\n  582  }\n\n/Users/gpascale/gitclients/combinator-website/ext/shapes/HTML/css/shapes-grass.css:\n  578  }\n  579  \n  580: #about .member .img-wrapper{\n  581      position:relative;\n  582  }\n\n/Users/gpascale/gitclients/combinator-website/ext/shapes/HTML/css/shapes-green.css:\n  578  }\n  579  \n  580: #about .member .img-wrapper{\n  581      position:relative;\n  582  }\n\n/Users/gpascale/gitclients/combinator-website/ext/shapes/HTML/css/shapes-light-blue.css:\n  578  }\n  579  \n  580: #about .member .img-wrapper{\n  581      position:relative;\n  582  }\n\n/Users/gpascale/gitclients/combinator-website/ext/shapes/HTML/css/shapes-orange.css:\n  578  }\n  579  \n  580: #about .member .img-wrapper{\n  581      position:relative;\n  582  }\n\n/Users/gpascale/gitclients/combinator-website/ext/shapes/HTML/css/shapes-pink.css:\n  578  }\n  579  \n  580: #about .member .img-wrapper{\n  581      position:relative;\n  582  }\n\n/Users/gpascale/gitclients/combinator-website/ext/shapes/HTML/css/shapes-purple.css:\n  578  }\n  579  \n  580: #about .member .img-wrapper{\n  581      position:relative;\n  582  }\n\n/Users/gpascale/gitclients/combinator-website/ext/shapes/HTML/css/shapes-red.css:\n  578  }\n  579  \n  580: #about .member .img-wrapper{\n  581      position:relative;\n  582  }\n\n/Users/gpascale/gitclients/combinator-website/ext/shapes/HTML/css/shapes-sepia.css:\n  578  }\n  579  \n  580: #about .member .img-wrapper{\n  581      position:relative;\n  582  }\n\n/Users/gpascale/gitclients/combinator-website/ext/shapes/HTML/css/shapes-yellow.css:\n  578  }\n  579  \n  580: #about .member .img-wrapper{\n  581      position:relative;\n  582  }\n\n/Users/gpascale/gitclients/combinator-website/src/html/index.html:\n  719                          </div>\n  720                          \n  721:                         <div class=\"img-wrapper\">\n  722                              <img class=\"img-responsive shadow\" src=\"assets/photos/greg-profile.jpg\" alt=\"\">\n  723                              <img class=\"img-responsive main-img\" src=\"assets/photos/greg-profile.jpg\" alt=\"\">\n  ...\n  747                          </div>\n  748  \n  749:                         <div class=\"img-wrapper\">\n  750                              <img class=\"img-responsive shadow\" src=\"assets/photos/sean-profile.jpg\" alt=\"\">\n  751                              <img class=\"img-responsive main-img\" src=\"assets/photos/sean-profile.jpg\" alt=\"\">\n  ...\n  775                          </div>\n  776                          \n  777:                         <div class=\"img-wrapper\">\n  778                              <img class=\"img-responsive shadow\" src=\"assets/photos/isaac-profile.jpg\" alt=\"\">\n  779                              <img class=\"img-responsive main-img\" src=\"assets/photos/isaac-profile.jpg\" alt=\"\">\n\n17 matches across 13 files\n",
+			"settings":
+			{
+				"buffer_size": 10768,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "src/less/combinator.less",
+			"settings":
+			{
+				"buffer_size": 2314,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "ext/shapes/HTML/css/shapes-blue.css",
+			"settings":
+			{
+				"buffer_size": 37406,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "combinator-website.sublime-project",
+			"settings":
+			{
+				"buffer_size": 98,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/js/combinator.js",
+			"settings":
+			{
+				"buffer_size": 4032,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<html>\n	<head>\n    <link rel='shortcut icon' href=\"/img/flavaflavicon.png\" type=\"image/x-icon\" />\n    <link href=\"css/deps.css\" rel=\"stylesheet\" type=\"text/css\"></link>\n    <link href=\"css/combinator.css\" rel=\"stylesheet\" type=\"text/css\"></link>\n    <link rel=\"stylesheet\" href=\"ext/fancybox/source/jquery.fancybox.css?v=2.1.5\" type=\"text/css\" media=\"screen\" />\n    <script data-main=\"js/combinator\" src=\"ext/js/require-2.1.8.js\"></script>\n    <!--\n    <script ty mj3pe=\"text/javascript\" src=\"ext/fancybox/source/jquery.fancybox.pack.js?v=2.1.5\"></script>\n    <link rel=\"stylesheet\" href=\"ext/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5\" type=\"text/css\" media=\"screen\" />\n    <script type=\"text/javascript\" src=\"ext/fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5\"></script>\n    <script type=\"text/javascript\" src=\"ext/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6\"></script>\n    <link rel=\"stylesheet\" href=\"ext/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7\" type=\"text/css\" media=\"screen\" />\n    <script type=\"text/javascript\" src=\"ext/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7\"></script>\n    -->\n    <!-- Google Analytics -->\n    <script type=\"text/javascript\">\n      var _gaq = _gaq || [];\n      _gaq.push(['_setAccount', 'UA-9286563-5']);\n\n      (function() {\n        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;\n        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';\n        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);\n      })();\n    </script>\n    <!-- End Google Analytics -->\n	</head>\n	<body>\n    <div id=\"fb-root\"></div>\n      <script>\n        (function(d, s, id) {\n          var js, fjs = d.getElementsByTagName(s)[0];\n          if (d.getElementById(id)) return;\n            js = d.createElement(s); js.id = id;\n            js.src = \"//connect.facebook.net/en_US/all.js#xfbml=1&appId=567420669996502\";\n            fjs.parentNode.insertBefore(js, fjs);\n        }(document, 'script', 'facebook-jssdk'));\n      </script>\n\n    <div class=\"header\">\n      <h1>Combinator</h1>\n      <div class=\"socialLinks\">\n        <a href=\"http://facebook.com/combinatorband\">\n          <img src=\"img/icon_facebook.png\"></img>\n        </a>\n        <a href=\"http://twitter.com/combinatorband\">\n          <img src=\"img/icon_twitter.png\"></img>\n        </a>\n        <a href=\"http://youtube.com/user/combinatorband\">\n          <img src=\"img/icon_youtube.png\"></img>\n        </a>\n        <a href=\"http://combinator.bandcamp.com\">\n          <img src=\"img/icon_bandcamp.png\"></img>\n        </a>\n      </div>\n    </div>\n    <div class=\"container\">\n      <div class=\"content row\">\n        <div class=\"leftContent span8\">\n          <ul class=\"nav nav-pills\">\n            <li class=\"homeNav\">\n              <a href=\"home\">Home</a>\n            </li>\n            <!--<li>\n              <a href=\"#\">News</a>\n            </li>-->\n            <li class=\"musicNav\">\n              <a href=\"music\">Music</a>\n            </li>\n            <li class=\"photosNav\">\n              <a href=\"photos\">Photos</a>\n            </li>\n            <li class=\"videoNav\">\n              <a href=\"video\">Video</a>\n            </li>\n            <li class=\"bioNav\">\n              <a href=\"bio\">Bio</a>\n            </li>\n          </ul>\n        </div>\n        <div class=\"rightContent span4\">\n\n          <div class=\"player\">\n            <iframe style=\"border: 0; width: 100%; height: 120px;\" src=\"http://bandcamp.com/EmbeddedPlayer/album=336232476/size=medium/bgcol=333333/linkcol=0f91ff/artwork=false/t=2/transparent=true/\" seamless><a href=\"http://combinator.bandcamp.com/album/vice-passion\">Vice &amp; Passion by Combinator</a></iframe>\n          </div>\n\n          <div class=\"fb-like-box\" data-href=\"http://www.facebook.com/combinatorband\" data-colorscheme=\"dark\" data-show-faces=\"true\" data-header=\"false\" data-stream=\"false\" data-show-border=\"false\"></div>\n\n          <!-- Begin MailChimp Signup Form -->\n          <!--\n          <div id=\"mc_embed_signup\">\n\n            <form class=\"form-vertical\" action=\"http://combinatorband.us7.list-manage.com/subscribe/post?u=fca11b6c0c06eb680ad0f9b52&amp;id=cdf01ff4f0\" method=\"post\" id=\"mc-embedded-subscribe-form\" name=\"mc-embedded-subscribe-form\" class=\"validate\" target=\"_blank\" novalidate>\n              <fieldset>\n                <p>Sign up for our mailing list to be notified about upcoming shows, albums and other events</p>\n                <div class=\"mc-field-group control-group\">\n                  <label for=\"mce-EMAIL\" class=\"control-label\">Email Address</label>\n                  <div class=\"controls\">\n                    <input id=\"mce-EMAIL\" name=\"EMAIL\" type=\"text\" placeholder=\"\" class=\"input-xlarge required email\">\n                  </div>\n                </div>\n                <div class=\"mc-field-group control-group\">\n                  <label for=\"mce-FULLNAME\" class=\"control-label\">Name</label>\n                  <div class=\"controls\">\n                    <input id=\"mce-FULLNAME\" name=\"FULLNAME\" type=\"text\" placeholder=\"\" class=\"input-xlarge\">\n                  </div>\n                </div>\n                <div class=\"mc-field-group control-group\" style=\"display:none;\">\n                    <input id=\"mce-FIRSTNAME\" name=\"FIRSTNAME\" type=\"text\" placeholder=\"\" class=\"input-xlarge\">\n                </div>\n                <div class=\"mc-field-group control-group\" style=\"display:none;\">\n                    <input id=\"mce-LASTNAME\" name=\"LASTNAME\" type=\"text\" placeholder=\"\" class=\"input-xlarge\">\n                </div>\n\n                <div class=\"mc-field-group control-group\">\n                  <label class=\"control-label\">Email Format</label>\n                  <div class=\"controls\">\n                    <select id=\"mce-EMAILTYPE-0\" name=\"EMAILTYPE\" class=\"input-xlarge\">\n                      <option value=\"html\">HTML</option>\n                      <option value=\"text\">Plain Text</option>\n                      <option value=\"mobile\">Mobile</option>\n                    </select>\n                  </div>\n                </div>\n\n                <div class=\"control-group\">\n                  <div class=\"controls\">\n                    <button type=\"submit\" value=\"Subscribe\" name=\"subscribe\" id=\"mc-embedded-subscribe\" class=\"btn btn-primary\">Subscribe</button>\n                  </div>\n                </div>\n\n                <div id=\"mce-responses\" class=\"clear\">\n                  <div class=\"response\" id=\"mce-error-response\" style=\"display:none\"></div>\n                  <div class=\"response\" id=\"mce-success-response\" style=\"display:none\"></div>\n                </div>  \n              </fieldset>\n            </form>\n          </div>\n          -->\n          <!--End mc_embed_signup-->\n          \n          <div class=\"tourDates\">\n            <a href=\"http://www.songkick.com/artists/6097809\" class=\"songkick-widget\" data-theme=\"dark\" data-font-color=\"#ffffff\" data-background-color=\"#333333\">Tour dates</a>\n            <script src=\"//widget.songkick.com/widget.js\"></script>\n          </div>\n        </div><!-- rightContent -->\n      </div><!-- content -->\n    </div>\n    <!--\n    <div class=\"footer\">\n      <iframe style=\"border: 0; width:600px; height: 120px;\" src=\"http://bandcamp.com/EmbeddedPlayer/album=336232476/size=medium/bgcol=ffffff/linkcol=0687f5/transparent=true/\" seamless><a href=\"http://combinator.bandcamp.com/album/vice-passion\">Vice &amp; Passion by Combinator</a></iframe>\n    </div>\n  -->\n\n\n    <!-- Templates -->\n\n    <script type=\"text/template\" id=\"homeTemplate\">\n      <div class=\"home contentSection\">\n      <p>\n      Combinator is a Seattle-based, soulful, funky rock band.\n      </p>\n      <p>\n      Combinator wants you, and takes what it wants. \n\n      It will aurally seduce you with its sticky tendrils of funk and soul, pound your chest while spanking your butt with its punishing rock sensibility, and awaken your palette with its savory, worldly flavors. For out of the depths of the murky bog of stank which the forebearers did create many years ago, has crawled Combinator - the harbinger of vice and passion. \n      </p>\n      <p>\n      Combinator is coming, and there will be no mind, body, or spirit left unmoved.\n      </p>\n      <iframe width=\"600\" height=\"450\" src=\"//www.youtube.com/embed/TTIjKjSsWFU\" frameborder=\"0\" allowfullscreen></iframe>\n      </div>\n    </script>\n\n    <script type=\"text/template\" id=\"musicTemplate\">\n      <div class=\"music contentSection\" style=\"display:none;\">\n      We just finished recording our first EP, <strong>Vice and Passion</strong>. Listen below or head on over to our <a href=\"http://combinator.bandcamp.com\">Bandcamp</a> page to download it for a nominal fee.\n      <iframe style=\"border: 0; width: 350px; height: 593px;\" src=\"http://bandcamp.com/EmbeddedPlayer/album=336232476/size=large/bgcol=333333/linkcol=0f91ff/transparent=true/\" seamless><a href=\"http://combinator.bandcamp.com/album/vice-passion\">Vice &amp; Passion by Combinator</a></iframe>\n      </div>\n    </script>\n\n    <script type=\"text/template\" id=\"photosTemplate\">\n      <div class=\"photos contentSection\" style=\"display:none;\">\n          <% _.each(photos, function(photo) { %>\n              <a class=\"fancybox\" href=\"<%= path %><%= photo %>.jpg\" title=\"\">\n              <div class=\"gridThumbnail\" style=\"background-image:url(<%= thumbPath %><%= photo%>-thumb.jpg);\"></div>\n              \n              </a>\n          <% }); %>\n\n      </div>\n    </script>\n\n    <script type=\"text/template\" id=\"videoTemplate\">\n      <div class=\"video contentSection\" style=\"display:none;\">\n        <p>\n        Check out some of our best stuff below. Find more videos on the Combinator <a href=\"http://www.youtube.com/user/combinatorband\">Youtube channel</a>\n        </p>\n        <iframe width=\"600\" height=\"450\" src=\"//www.youtube.com/embed/TTIjKjSsWFU\" frameborder=\"0\"  allowfullscreen></iframe>\n        <iframe width=\"600\" height=\"450\" src=\"//www.youtube.com/embed/5_wqcNBCV5c\" frameborder=\"0\" allowfullscreen></iframe>\n      </div>\n    </script>\n\n    <script type=\"text/template\" id=\"bioTemplate\">\n      <div class=\"bio contentSection\" style=\"display:none;\">\n      <p>\n      Combinator is...\n      </p>\n      <p>\n      Isaac Chirino - Drums, Vocals<br/>\n      Sean Fairchild - Bass, Lead Vocals<br/>\n      Greg Pascale - Guitar, Vocals<br/>\n      </p>\n      </div>\n    </script>\n\n	</body>\n</html>\n",
+			"file": "publicOld/index.html",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 10494,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 602,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -227,7 +320,11 @@
 	},
 	"console":
 	{
-		"height": 139.0
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
 	},
 	"distraction_free":
 	{
@@ -240,6 +337,38 @@
 	},
 	"file_history":
 	[
+		"/Users/gpascale/gitclients/combinator-website/public/templates/home.tmpl",
+		"/Users/gpascale/gitclients/combinator-website/ext/shapes/Documentation/index.html",
+		"/Users/gpascale/gitclients/combinator-website/node_modules/grunt-concat-deps/node_modules/yuidocjs/node_modules/yui/console/lang/console_it.js",
+		"/Users/gpascale/gitclients/combinator-website/node_modules/grunt-contrib-less/node_modules/less/test/css/import-once.css",
+		"/Users/gpascale/gitclients/combinator-website/node_modules/express/LICENSE",
+		"/Users/gpascale/gitclients/combinator-website/node_modules/grunt-contrib-less/docs/less-examples.md",
+		"/Users/gpascale/gitclients/combinator-website/node_modules/grunt-contrib-less/node_modules/.bin/lessc",
+		"/Users/gpascale/gitclients/combinator-website/node_modules/grunt-contrib-less/tasks/less.js",
+		"/Users/gpascale/gitclients/combinator-website/node_modules/grunt-contrib-jst/test/fixtures/it's-a-bad-filename.html",
+		"/Users/gpascale/gitclients/combinator-website/node_modules/grunt/node_modules/findup-sync/node_modules/glob/examples/usr-local.js",
+		"/Users/gpascale/gitclients/combinator-website/node_modules/grunt-concat-deps/node_modules/yuidocjs/node_modules/yui/datatype-date-format/lang/datatype-date-format_es-BO.js",
+		"/Users/gpascale/gitclients/combinator-website/publicOld/templates/music.tmpl",
+		"/Users/gpascale/gitclients/combinator-website/node_modules/grunt-contrib-less/node_modules/less/test/less/errors/multiply-mixed-units.less",
+		"/Users/gpascale/gitclients/combinator-website/node_modules/express/Makefile",
+		"/Users/gpascale/gitclients/combinator-website/node_modules/grunt-contrib-less/node_modules/less/test/css/whitespace.css",
+		"/Users/gpascale/gitclients/combinator-website/node_modules/grunt/node_modules/.bin/which",
+		"/Users/gpascale/gitclients/combinator-website/node_modules/grunt-concat-deps/node_modules/yuidocjs/node_modules/yui/widget-htmlparser/widget-htmlparser.js",
+		"/Users/gpascale/gitclients/combinator-website/publicOld/css/combinator.css",
+		"/Users/gpascale/gitclients/combinator-website/src/html/index.html",
+		"/Users/gpascale/gitclients/combinator-website/public/js/combinator.js",
+		"/Users/gpascale/gitclients/combinator-website/ext/shapes/HTML/js/jquery.backstretch.js",
+		"/Users/gpascale/gitclients/combinator-website/public/js/deps.js",
+		"/Users/gpascale/gitclients/combinator-website/node_modules/grunt-concat-deps/node_modules/yuidocjs/node_modules/yui/cache-offline/cache-offline-min.js",
+		"/Users/gpascale/gitclients/combinator-website/node_modules/grunt-contrib-clean/docs/clean-options.md",
+		"/Users/gpascale/gitclients/combinator-website/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/argument_parser.js",
+		"/Users/gpascale/gitclients/combinator-website/public/css/combinator.css",
+		"/Users/gpascale/gitclients/combinator-website/combinator-website.sublime-project",
+		"/Users/gpascale/gitclients/combinator-website/node_modules/grunt-concat-deps/node_modules/yuidocjs/node_modules/yui/io-nodejs/io-nodejs-debug.js",
+		"/Users/gpascale/gitclients/combinator-website/node_modules/grunt-concat-deps/node_modules/yuidocjs/node_modules/yui/io-nodejs/io-nodejs.js",
+		"/Users/gpascale/gitclients/combinator-website/node_modules/grunt-contrib-jst/test/expected/pretty_amd.js",
+		"/Users/gpascale/gitclients/combinator-website/Procfile",
+		"/Users/gpascale/gitclients/combinator-website/shapes/HTML/index2.html",
 		"/Users/gpascale/gitclients/MyCharts/components/DashboardView.component",
 		"/Users/gpascale/gitclients/MyCharts/components/ChartPageView.component",
 		"/Users/gpascale/gitclients/MyCharts/quickActions/New_MyChart.quickAction",
@@ -312,7 +441,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 93.0,
 		"where_history":
 		[
 			""
@@ -323,6 +452,34 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"img",
+			"img-wrapper",
+			"main-img",
+			"socialL",
+			"vice and pass",
+			"face",
+			"music",
+			"music\"",
+			"music:",
+			"bandc",
+			"\"about\"",
+			"#about",
+			"COMBIN",
+			"loader-logo",
+			"lodaer-logo",
+			"png",
+			"jquery",
+			"backstretch",
+			".woff",
+			"fontawesome",
+			"fonts",
+			"deps.css",
+			"img",
+			"client/",
+			"chordgrids",
+			"path",
+			"exec",
+			"selljs",
 			"instance",
 			"forcetk",
 			"dashboardmo",
@@ -422,35 +579,7 @@
 			" }body",
 			" body{",
 			"body{",
-			"body {",
-			"mychartslightbox",
-			"debugger",
-			"borderedC",
-			"makeChar",
-			"600px",
-			"borderedchartapp",
-			"chartPageView",
-			"_",
-			"defaultRep",
-			"saveorC",
-			"editControlsView",
-			"chartNameInput",
-			"title",
-			"36",
-			"reportLoadingIcon",
-			"loadingI",
-			"center",
-			"reportPickerCont",
-			"reportpickercon",
-			"reportpic",
-			"share",
-			"onsh",
-			"makeC",
-			"makeCh",
-			"makeChartPa",
-			"lightbox",
-			"lightboxon",
-			"qs"
+			"body {"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -463,7 +592,7 @@
 			"WhoCharted",
 			"removeAllListeners"
 		],
-		"reverse": true,
+		"reverse": false,
 		"show_context": true,
 		"use_buffer2": true,
 		"whole_word": false,
@@ -472,8 +601,413 @@
 	"groups":
 	[
 		{
+			"selected": 3,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 556,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								556,
+								556
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Gruntfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5928,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								596,
+								596
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/html/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 45406,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								43557,
+								43557
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 14422.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": ".gitignore",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 58,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								57,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10768,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										1569,
+										1580
+									],
+									[
+										7104,
+										7115
+									],
+									[
+										7368,
+										7379
+									],
+									[
+										7632,
+										7643
+									],
+									[
+										7955,
+										7966
+									],
+									[
+										8132,
+										8143
+									],
+									[
+										8309,
+										8320
+									],
+									[
+										8491,
+										8502
+									],
+									[
+										8669,
+										8680
+									],
+									[
+										8845,
+										8856
+									],
+									[
+										9023,
+										9034
+									],
+									[
+										9198,
+										9209
+									],
+									[
+										9375,
+										9386
+									],
+									[
+										9553,
+										9564
+									],
+									[
+										9786,
+										9797
+									],
+									[
+										10127,
+										10138
+									],
+									[
+										10492,
+										10503
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1486.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/less/combinator.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2314,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								594,
+								594
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "ext/shapes/HTML/css/shapes-blue.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 37406,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1274,
+								1249
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 1.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "combinator-website.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 98,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								98,
+								98
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/js/combinator.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4032,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								408,
+								408
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "publicOld/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10494,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3462,
+								3462
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 990.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 602,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								312,
+								312
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -508,6 +1042,11 @@
 		]
 	},
 	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 486.0
+	},
+	"project": "combinator-website.sublime-project",
 	"replace":
 	{
 		"height": 0.0
@@ -518,6 +1057,54 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				".git",
+				".gitignore"
+			],
+			[
+				"",
+				"src/html/index.html"
+			],
+			[
+				"com",
+				"src/less/combinator.less"
+			],
+			[
+				"in",
+				"src/html/index.html"
+			],
+			[
+				"inde",
+				"src/html/index.html"
+			],
+			[
+				"index.",
+				"publicOld/index.html"
+			],
+			[
+				"grunt",
+				"Gruntfile.js"
+			],
+			[
+				"combin",
+				"src/less/combinator.less"
+			],
+			[
+				"grun",
+				"Gruntfile.js"
+			],
+			[
+				"g",
+				"Gruntfile.js"
+			],
+			[
+				"app",
+				"app.js"
+			],
+			[
+				"pack",
+				"package.json"
+			],
 			[
 				"chartp",
 				"components/ChartPageView.component"
@@ -675,10 +1262,6 @@
 				"components/LightBox.component"
 			],
 			[
-				"",
-				"components/ChartView.component"
-			],
-			[
 				"char",
 				"components/ChartView.component"
 			],
@@ -725,10 +1308,6 @@
 			[
 				"head",
 				"components/HeaderView.component"
-			],
-			[
-				"com",
-				"static/css/common.css"
 			],
 			[
 				"actionsv",
@@ -989,46 +1568,6 @@
 			[
 				"lightbox",
 				"components/LightBox.component"
-			],
-			[
-				"sc",
-				"components/ScatterChartView.component"
-			],
-			[
-				"openligh",
-				"components/LightBox.component"
-			],
-			[
-				"chartapp",
-				"components/ChartAppView.component"
-			],
-			[
-				"forcet",
-				"static/js/forcetkdetails.js"
-			],
-			[
-				"scatt",
-				"components/ScatterChartView.component"
-			],
-			[
-				"treema",
-				"components/TreemapChartView.component"
-			],
-			[
-				"scatter",
-				"components/ScatterChartView.component"
-			],
-			[
-				"appp",
-				"pages/AppPage.page"
-			],
-			[
-				"appvi",
-				"components/AppView.component"
-			],
-			[
-				"piech",
-				"components/PieChartView.component"
 			]
 		],
 		"width": 0.0
@@ -1041,10 +1580,24 @@
 		],
 		"width": 0.0
 	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
 	"side_bar_width": 247.0,
-	"status_bar_visible": true
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
 }
