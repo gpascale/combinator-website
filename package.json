@@ -1,5 +1,5 @@
 {
-  "name": "node-example",
+  "name": "combinator-website",
   "version": "0.0.1",
   "dependencies": {
     "grunt": "0.4.x"
